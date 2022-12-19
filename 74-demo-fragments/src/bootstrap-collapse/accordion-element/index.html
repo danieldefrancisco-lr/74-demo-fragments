@@ -1,0 +1,56 @@
+[#assign itemId = random.nextInt() /]
+<div class="accordion-item">
+    <h5 class="accordion-header" id="heading-${itemId}">
+      <button class="accordion-button activity-element collapsed" type="button" data-toggle="collapse" data-target="#item-${itemId}" aria-expanded="false" aria-controls="item-${itemId}">
+        <div class="title-wrapper">
+			<span class="title" data-lfr-editable-id="title" data-lfr-editable-type="text">Cognitive robots – the new era of true collaboration between human and machine</span>
+		</div>
+		<div class="date-wrapper">
+			<span class="clock icon-time"></span>
+			<div class="time">
+				<span data-lfr-editable-id="timeFrom" data-lfr-editable-type="text">11.10</span>
+					<span class="separator">-</span>
+					<span data-lfr-editable-id="timeTo" data-lfr-editable-type="text">11.50</span>
+			</div>
+		</div>
+      </button>
+    </h5>
+    <div id="item-${itemId}" class="collapse" aria-labelledby="heading-${itemId}" data-parent="#accordionExample">
+      <div class="accordion-body">
+        <div class="img-content-row-wrapper">
+				<div class="img-wrapper">
+	<img data-lfr-editable-id="speaker-Image"
+  data-lfr-editable-type="image" src="https://www.ifema.es/globalrobotexpo/img/foto-david-reger/david_reger_ceo.jpg" alt="">
+				</div>
+			<div class="content-row-wrapper">
+					<div class="content-row">
+						<div class="row">
+                                <div class="programming-card col-12 col-md-6 col-dk-4 with-icon">
+                                    <div class="prog-card-title">
+                                            <span class="icon-speakers"></span>
+                                            <span class="title" data-lfr-editable-id="speaker" data-lfr-editable-type="text">David Reger</span>
+                                    </div>
+                                </div>
+                                <div class="programming-card col-12 col-md-6 col-dk-4 with-icon">
+                                    <div class="prog-card-title">
+                                            <span class="icon-building-business"></span>
+                                            <span class="title" data-lfr-editable-id="company" data-lfr-editable-type="text">NEURA ROBOTICS</span>
+                                    </div>
+                                </div>
+						</div>
+						<hr>
+					</div>
+				<div class="content-row">
+					<div class="links-wrapper">
+						<div class="save-calendar-wrapper">
+		                	<a href="" class="save-calendar no-default-link icsgenerator activity-event" target="_blank" download="IFEMA_Madrid_Event.ics">
+		                    	<span>Save to calendar</span>
+		                    </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+      </div>
+    </div>
+  </div>
